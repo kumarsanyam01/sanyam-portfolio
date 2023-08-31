@@ -80,18 +80,32 @@ body {
     padding: 100px 0;
     text-align: center;
   }
+
   .hello-text {
     order: 1;
-    font-size: 2.8rem; 
-    font-weight: bold;
+    font-size: 2.3rem; 
+    font-weight: 650;
     letter-spacing: 1.4px;
     position: relative;
   }
   
   .name {
     color: #e74c3c;
-    font-size: 2.4rem;
+    font-size: 2.3rem;
+    font-weight: 650;
+    letter-spacing: 1.4px;
   }
+    #element {
+      color: #e74c3c;
+      font-size: 2.3rem;
+      font-weight: 650;
+      letter-spacing: 1.4px;
+      }
+      .typed-cursor {
+        color: #e74c3c; 
+        font-size: 2.3rem;
+        font-weight: 650;
+      }
   
   .profile-picture {
     border-radius: 50%;
@@ -117,9 +131,24 @@ body {
   .hello-text{
     order: 1;
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.2rem;
     font-weight: 600;
+    letter-spacing: 1.2px;
 }
+.name {
+  font-size: 2.2rem;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+}
+#element {
+  font-size: 2.2rem;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  }
+  .typed-cursor {
+    font-size: 2.2rem;
+    font-weight: 600;
+  }
 }
     /* partition */
     .circle-divider {
@@ -429,16 +458,3 @@ body {
   footer p {
     color:var(--secondary-color);
   }
-  /* type styles */
-  #element {
-  color: #e74c3c;
-  font-size: 2.4rem;
-  }
-  .typed-cursor {
-    color: #e74c3c; 
-  }
-
-  
-
-  
-  
